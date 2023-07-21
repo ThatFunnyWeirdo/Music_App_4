@@ -1,0 +1,38 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    color: white;
+    background-color: #f55858;
+    font-family: 'Caveat', cursive;
+    font-size: 21px;
+    width: 100%;
+    margin-top: -7;
+    height: 100px;
+}
+
+.note
+{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+canvas
+{
+    border: groove;
+    animation-name: example;
+	  animation-duration: 7s;
+	  animation-iteration-count: infinite;
+  }
+
+
+ @keyframes example {
+
+  from {box-shadow: 1px 1px 38px #69e2f5;}
+  to {box-shadow: 1px 1px 38px #e562fc;}
+
+}
